@@ -1,4 +1,5 @@
-import {avatar , coder} from "../utils/constants"
+import { coder} from "../utils/constants"
+import hero from "../assets/hero.svg"
 import {FaGithubSquare, FaLinkedin} from "react-icons/fa"
 const Home = () => {
   return (
@@ -28,7 +29,7 @@ const Home = () => {
         <p className="mt-4 text-3xl text-slate-700 capitalize tracking-wide">Front end developer who writes clean, elegent and efficient code . </p>
         </div></div>
         <article className="hidden md:block">
-             <div className="mb-4 h-full w-full object-cover"> <img alt="avatar" className="h-full lg:h-full rounded  md:h-full md:w-full " src={avatar}/></div>
+             <div className="mb-4 h-full w-full object-cover"> <img alt="avatar" className="h-full lg:h-full rounded  md:h-full md:w-full " src={hero}/></div>
              </article>
         </div>
           </section>

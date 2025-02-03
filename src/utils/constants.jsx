@@ -66,5 +66,6 @@ export const footerData = [
   href:"alisalman93541@gmail.com",
   title:"Gmail",
   icon: <SiGmail className='h-8 w-8 text-slate-500 hover:text-white duration-300' />,
-} 
+} ,
+
 ]
